@@ -61,8 +61,4 @@ do_action('wplms_after_course_description');
 ?>
 
 
-<!--<div class="course_reviews" id="course-reviews">
-<?php
-/*	 comments_template('/course-review.php',true);
-*/?>
-</div>-->
+

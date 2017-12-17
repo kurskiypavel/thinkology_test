@@ -14,9 +14,9 @@
     background: #fafafa;
     padding-bottom: 30px
 }
-/*kurskii*/
+
 .minimal .pusher #title{
-    /*background: linear-gradient(-45deg,#00b1b3,#1d5086);*/
+
     background: -webkit-linear-gradient(-45deg,#41a3ff, #0273D4);
     background: linear-gradient(-45deg,#41a3ff, #0273D4);
     color: #fff;
@@ -67,7 +67,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, .08)
 }
 
-/*kurskii*/
+
 .sub-menu > li {
     border-bottom: none;
 }
@@ -664,9 +664,7 @@
     border: 2px solid #78C8Ce
 }
 
-.minimal #footerbottom, .minimal footer, .minimal footer .footerbottom {
-    /*border-top: 1px solid rgba(0, 0, 0, .08)*/
-}
+
 
 .minimal .widget .course_cat_nav ul li a:hover {
     color: #78C8Ce

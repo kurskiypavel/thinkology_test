@@ -7429,7 +7429,7 @@ body {
     content: "~"
 }
 
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -7561,7 +7561,7 @@ td, th {
     padding: 0
 }
 
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+
 @media print {
     blockquote, img, pre, tr {
         page-break-inside: avoid
@@ -14109,10 +14109,7 @@ button.close {
     display: inline-block
 }
 
-/*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
+
 @font-face {
     font-family: FontAwesome;
     src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
@@ -20496,13 +20493,12 @@ nav .menu li {
 }
 
 nav .menu li a {
-    /*kurskii*/
-    /*font-weight: 500;*/
+
     margin: 0 10px;
     padding: 30px 6px;
     display: inline-block;
     font-size: 13px;
-    /*text-transform: uppercase;*/
+
     color: #FFF;
     opacity: .8;
     position: relative
@@ -20562,7 +20558,7 @@ header.mooc, header.sleek.transparent, header.sleek:not(.transparent), header.st
 }
 
 nav .menu li:hover > .sub-menu > li {
-    /*kurskii*/
+
     text-align: left;
     font-size: 12px
 }
@@ -20669,8 +20665,7 @@ nav .sub-menu li {
 }
 
 nav .sub-menu li a {
-    /*kurskii*/
-    /*color: #FFF;*/
+
     color: #049eeb;
     opacity: .8;
     display: block;
@@ -21827,7 +21822,7 @@ section#title {
 .pagetitle h1 {
     margin: 0 0 40px 0;
     padding: 0;
-    /*kurskii*/
+
     font-weight: 500;
     font-size: 48px;
     color: white;
@@ -21841,7 +21836,7 @@ section#title {
     margin-bottom: 10px
 }
 
-/*kurskii*/
+
 .pagetitle p{
     color: hsla(0,0%,100%,.7);
     font-size: 18px;
@@ -23831,14 +23826,14 @@ section#title {
 
 #buddypress #pag-top.pagination {
     padding-top: 0;
-    /*kurskii*/
+
     display:none;
 }
 
 
 #buddypress #pag-bottom.pagination {
     padding-bottom: 0;
-    /*kurskii*/
+
     display:none;
 }
 
@@ -24551,7 +24546,7 @@ body.activity-permalink .ac-reply-content {
 }
 
 #buddypress ul.item-list li a {
-    /*kurskii*/
+
     font-weight: 500;
     color:#4d545d;
 }
@@ -26991,8 +26986,7 @@ label.strong span {
 }
 
 #course-list li .item-meta {
-    /*kurskii*/
-    /*display: block;*/
+
     display: none;
     margin-top: 5px;
     font-size: 11px;
@@ -27021,7 +27015,7 @@ label.strong span {
 
 .single-course #buddypress #item-header ul.breadcrumbs {
     margin-bottom: 0;
-    /*kurskii*/
+
     display: none;
 }
 
@@ -27473,7 +27467,7 @@ label.strong span {
 
 .single-course.c4 #buddypress #item-header div#item-header-content h1 {
     margin-top: 0;
-    /*kurskii*/
+
     font-weight: 500;
     color:#4d545d;
     font-size:50px;
@@ -27489,7 +27483,7 @@ label.strong span {
 
 .single-course.c4 #buddypress #item-header div#item-header-content div#item-meta {
     color: #444;
-    /*kurskiy*/
+
     display:none;
 }
 
@@ -29022,9 +29016,7 @@ label.strong span {
 .block .block_media, .end_grid, .load_grid, .v_module {
     position: relative
 }
-
-/*kurskii*/
-/*.block .block_media,*/.block.courseitem .block_content .star-rating, .block.courseitem .block_content .star-rating .course-star-rating {
+.block.courseitem .block_content .star-rating, .block.courseitem .block_content .star-rating .course-star-rating {
     display:none;
 }
 .block .block_content{
@@ -29033,7 +29025,7 @@ label.strong span {
 .block.simple{
     margin-bottom: 30px;
 }
-/*kurskii*/
+
 .block_content strong, .block_content span, .block_content .instructor_course, .block.courseitem span.clear{
     display:none;
 }
@@ -29200,7 +29192,7 @@ section.stripe .v_column {
 }
 
 .block h4.block_title {
-    /*kurskii*/
+
     margin: 0px 0 0;
     font-size: 18px;
     font-weight: 600
@@ -29236,8 +29228,7 @@ section.stripe .v_column {
     background: #FFF;
     width: 100%;
     padding: 0 15px 15px;
-    /*kurskii*/
-    /*border: 1px solid rgba(0, 0, 0, .08);*/
+
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px
 }
@@ -29252,8 +29243,7 @@ section.stripe .v_column {
 .block.courseitem .block_content .block_title {
     font-weight: 500;
     padding: 15px 0;
-    /*kurskii*/
-    /*border-bottom: 1px solid rgba(0, 0, 0, .08)*/
+
 }
 
 .block.courseitem .block_content .star-rating {
@@ -29333,7 +29323,7 @@ section.stripe .v_column {
     display: block;
     margin: 0 0 15px;
     border-top: 1px solid rgba(0, 0, 0, .08);
-    /*kurskii*/
+
     display:none;
 }
 
@@ -29511,8 +29501,7 @@ section.stripe .v_column {
 .block.simple .block_content .simple_category a:before, .block.simple .block_media a:before {
     content: '';
     width: 100%;
-    /*kurskii*/
-    /*background: #009dd8;*/
+
     background: #41a3ff;
     left: 0;
     transform: translateX(-100%);
@@ -29558,7 +29547,7 @@ section.stripe .v_column {
 
 }
 
-/*kurskii*/
+
 .block_title a{
     color:#4d545d;
 
@@ -29566,7 +29555,7 @@ section.stripe .v_column {
 
 .block.simple .block_content .simple_category {
     margin: 10px 0 20px;
-    /*kurskii*/
+
     display: none;
 }
 
@@ -29590,7 +29579,7 @@ section.stripe .v_column {
 }
 
 .block.simple .block_media:hover a:after {
-    /*kurskii*/
+
     content: "\f120";
     font-family: fontawesome;
     font-size: 36px;
@@ -30468,8 +30457,7 @@ hr.divider {
     padding: 8px 0;
     font-weight: 600;
     text-transform: uppercase;
-    /*kurskii*/
-    /*border-bottom: 3px solid rgba(0, 0, 0, .08)*/
+
 }
 
 .progressbars {
@@ -30646,7 +30634,7 @@ hr.divider {
 .three_fourth {
     width: 75%;
     float: left;
-    /*kurskii*/
+
     color:#7d8793;
 }
 
@@ -32030,10 +32018,10 @@ footer .footerbottom {
     border-top: 1px solid rgba(255, 255, 255, .1)
 }
 
-/*kurskii*/
+
 footer .heading {
     color: #4d545d;
-    /*border-bottom-color: rgba(255, 255, 255, .6)*/
+
 }
 
 footer .product_list_widget li {
@@ -33180,7 +33168,7 @@ div.mce-panel {
     display: none;
 }
 /*//delete: footer/header/title - custom css*/
-/*.header_content,*/  #headertop,footer{display:none;}
+#headertop,footer{display:none;}
 
 /* Hide "All Courses" in Course Category Navigation*/
 #buddypress div.item-list-tabs  {

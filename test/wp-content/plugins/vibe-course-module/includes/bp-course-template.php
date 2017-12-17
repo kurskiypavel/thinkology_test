@@ -754,7 +754,7 @@ if(!function_exists('bp_course_item_view')){
 					<div class="item">
 						<div class="item-title"><?php bp_course_title(); if(get_post_status() != 'publish'){echo '<i> ( '.get_post_status().' ) </i>';} ?></div>
 						<div class="item-meta"><?php bp_course_meta(); ?></div>
-                        <!--kurskii-->
+
                         <div class="item-desc" style="color:#919499;"><?php bp_course_desc(); ?></div>
 						<div class="item-credits">
 							<?php 
@@ -807,21 +807,11 @@ function bp_course_description(){
 
 		return $count;
 	}
-	/**
-	 * Echo "Viewing x of y pages"
-	 *
-	 * @package BuddyPress_Course_Component
-	 * @since 1.6
-	 */
+
 	function bp_course_pagination_count() {
 		echo bp_course_get_pagination_count();
 	}
-	/**
-	 * Return "Viewing x of y pages"
-	 *
-	 * @package BuddyPress_Course_Component
-	 * @since 1.6
-	 */
+
 	function bp_course_get_pagination_count() {
 		global $items_template;
 
@@ -830,21 +820,11 @@ function bp_course_description(){
 		return apply_filters( 'bp_course_get_pagination_count', $pagination_count );
 	}
 
-	/**
-	 * Echo pagination links
-	 *
-	 * @package BuddyPress_Course_Component
-	 * @since 1.6
-	 */
+
 	function bp_course_item_pagination() {
 		echo bp_course_get_item_pagination();
 	}
-	/**
-	 * return pagination links
-	 *
-	 * @package BuddyPress_Course_Component
-	 * @since 1.6
-	 */
+
 	function bp_course_get_item_pagination() {
 		global $items_template;
 		//print_r($items_template);
@@ -1126,8 +1106,7 @@ function bp_course_desc() {
 	echo bp_course_get_course_desc();
 }
 	
-/* 
- */
+
 
 function bp_course_get_course_desc() {
 	global $post;
@@ -1137,7 +1116,7 @@ function bp_course_get_course_desc() {
 	return apply_filters('the_content',$desc);
 }
 
-/*kurskii*/
+
 function bp_course_get_course_cat() {
     global $post;
     $limit = apply_filters('excerpt_length',55);
@@ -1145,14 +1124,13 @@ function bp_course_get_course_cat() {
 
     return $desc;
 }
-/**/
+
 
 function bp_course_action() {
 	echo bp_course_get_course_action();
 }
 	
-/* 
- */
+
 
 function bp_course_get_course_action() {
 	do_action('bp_course_get_course_action');
@@ -1230,18 +1208,7 @@ function bp_get_course_slug(){
 function bp_course_root_slug() {
 	echo bp_get_course_root_slug();
 }
-/**
- * Return the component's root slug
- *
- * Having a template function for this purpose is not absolutely necessary, but it helps to
- * avoid too-frequent direct calls to the $bp global.
- *
- * @package BuddyPress_Skeleton_Component
- * @since 1.6
- *
- * @uses apply_filters() Filter 'bp_get_course_root_slug' to change the output
- * @return str $course_root_slug The slug from $bp->course->root_slug, if it exists
- */
+
 function bp_get_course_root_slug() {
 	global $bp;
 
@@ -1372,18 +1339,7 @@ function bp_course_paginate_students_undertaking($course_id=NULL){
 function bp_course_total_course_count_for_user( $user_id = false ) {
 	echo bp_course_get_total_course_count_for_user( $user_id = false );
 }
-/**
- * Return the total of all high-fives given to a particular user
- *
- * The most straightforward way to get a post count is to run a WP_Query. In your own plugin
- * you might consider storing data like this with update_option(), incrementing each time
- * a new item is published.
- *
- * @package BuddyPress_Skeleton_Component
- * @since 1.6
- *
- * @return int
- */
+
 function bp_course_get_total_course_count_for_user( $user_id = false ) {
 	// If no explicit user id is passed, fall back on the loggedin user
 	if ( !$user_id ) {
@@ -1942,18 +1898,7 @@ function bp_course_unit_quiz_complete_check($unit_id = NULL,$user_id){
 
 	return (empty($check)?false:true);
 }
-/**
- * Return the total of all high-fives given to a particular user
- *
- * The most straightforward way to get a post count is to run a WP_Query. In your own plugin
- * you might consider storing data like this with update_option(), incrementing each time
- * a new item is published.
- *
- * @package BuddyPress_Skeleton_Component
- * @since 1.6
- *
- * @return int
- */
+
 if(!function_exists('bp_course_get_total_course_count')){
 function bp_course_get_total_course_count( ) {
 	// If no explicit user id is passed, fall back on the loggedin user

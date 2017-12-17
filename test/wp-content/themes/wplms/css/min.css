@@ -1,14 +1,4 @@
-/*color palette
 
-
-#04c4f3 - deep sky blue /light
-#049eeb - deep sky blue /dark  - PRIMARY COLOR
-#935afb - medium slate blue /purple high
-#0addf5 - deep sky blue /very light
-#5b66fa - medium slate blue /purple
-
-
-*/
 
 @charset "UTF-8";
 
@@ -312,11 +302,7 @@ span {
   font-weight: inherit
 }
 
-strong {
-  /*kurskii*/
-  /*color: #4d545d;*/
-  /*font-weight: 700*/
-}
+
 
 pre {
   white-space: pre;
@@ -992,7 +978,7 @@ a.box:active {
   border-color: #69707a;
   color: #f5f7fa
 }
-/*qwe*/
+
 .button.is-primary, .is-primary.ais-clear {
   background-color: #049eeb;
   border-color: transparent;
@@ -1299,14 +1285,8 @@ a.box:active {
   position: absolute!important
 }
 
-/*kurskii*/
-/*.content a:not(.button):not(.ais-clear) {
-  border-bottom: 1px solid #d7d7d7
-}*/
-/*kurskii*/
-/*.content a:not(.button):not(.ais-clear):visited {
-  color: #847bb9
-}*/
+
+
 
 .content a:not(.button):not(.ais-clear):hover {
   border-bottom-color: #049eeb
@@ -2777,7 +2757,7 @@ a.box:active {
 }
 
 .ais-refinement-list__count, .number, .tag {
-  /*kurskii*/
+
   background-color: #a1a1a1;
   border-radius: 290486px;}
   vertical-align: top
@@ -9828,7 +9808,7 @@ section.series-collection:hover .flickity-prev-next-button {
   height: 5px;
   width: 35px;
   margin: 12px auto 10px;
-  /*background: #c7c7c7*/
+
 }
 
 .plan-type>h3 {
@@ -11065,32 +11045,7 @@ svg#icon-alarm {
   margin-bottom: .7em
 }
 
-/*@media screen and (max-width:768px) {
-  svg#header-person {
-    max-width: 100%!important
-  }
-}
 
-@media screen and (min-width:769px) {
-  svg#header-person {
-    max-width: 65%;
-    margin-bottom: -14px
-  }
-}
-
-@media screen and (min-width:980px) {
-  svg#header-person {
-    max-width: 50%;
-    margin-bottom: -17px
-  }
-}
-
-@media (min-width:980px) and (min-height:900px) {
-  svg#header-person {
-    max-width: 786px;
-    margin-bottom: -23px
-  }
-}*/
 
 
 
@@ -12563,9 +12518,7 @@ svg#icon-alarm {
 }
 
 
-/*! Flickity v2.0.5
-http://flickity.metafizzy.co
----------------------------------------------- */
+
 
 .flickity-enabled {
   position: relative
@@ -12700,13 +12653,7 @@ http://flickity.metafizzy.co
 }
 
 
-/*!
- * animate.css -http://daneden.me/animate
- * Version - 3.5.1
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2016 Daniel Eden
- */
+
 
 .animated {
   -webkit-animation-duration: 1s;
@@ -15736,7 +15683,7 @@ http://flickity.metafizzy.co
   animation-name: slideOutUp
 }
 
-/*kurskii*/
+
 .testimonial-name a{
   color:#41a3ff;
 }

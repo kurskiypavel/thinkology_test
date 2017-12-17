@@ -73,16 +73,15 @@ if (!defined('ABSPATH')) exit;
                 </div>
             </div>
         </div>
-        <!--kurskii-->
-        <!--<div class="header_content">-->
+
+
         <div class="header_content" style="padding: 0px 120px; margin:0px;">
 
-            <!--kurskii-->
-            <!--<div class="<?php /*echo vibe_get_container(); */ ?>">-->
+
+
             <div class="<?php echo vibe_get_container(); ?>" style="padding-left: 0px;padding-right: 0px;margin-right: 120px;margin-left: 0px;">
                 <div class="row">
-                    <!--kurskii-->
-                    <!--<div class="col-md-12 center">-->
+
                     <div class="col-md-4 left">
                         <?php
 
@@ -105,10 +104,7 @@ if (!defined('ABSPATH')) exit;
                         ?>
                     </div>
                 </div>
-                <!--kurskii - search bar begin-->
-                <!--dir-search-form.php-->
 
-                <!--kurskii search bar end-->
             </div>
         </div>
         <header class="standard center <?php if (isset($fix) && $fix) {

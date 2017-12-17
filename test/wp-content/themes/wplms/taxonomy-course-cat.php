@@ -14,15 +14,13 @@ get_header( vibe_get_header() ); ?>
 
 <section id="title">
     <div class="<?php echo vibe_get_container(); ?>">
-        <!--kurskiy-->
-        <!--<div class="row">-->
+
         <div class="row" id="pad">
-            <!--kurskii-->
-            <!--<div class="col-md-12">-->
+
              <div class="col-md-9">
                 <div class="pagetitle">
-                    <!--kurskii-->
-                	<?php /*vibe_breadcrumbs(); */?>
+
+
                    	<h1><?php single_cat_title(); ?></h1>
                     <h5><?php echo do_shortcode(category_description()); ?></h5>
                 </div>
@@ -52,12 +50,7 @@ get_header( vibe_get_header() ); ?>
 				?>
 				</div>
 			</div>	
-			<!--<div class="col-md-3 col-sm-3">
-				<?php
-/*                    $sidebar = apply_filters('wplms_sidebar','coursesidebar');
-                    if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar($sidebar) ) : */?>
-                <?php /*endif; */?>
-			</div>-->
+
 		</div>	
 		<?php do_action( 'bp_after_directory_course' ); ?>
 

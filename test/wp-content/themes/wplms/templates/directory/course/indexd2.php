@@ -63,7 +63,7 @@ $id= vibe_get_bp_page_id('course');
 					<div class="item-list-tabs" id="subnav" role="navigation">
 						<ul>
 							<?php do_action( 'bp_course_directory_course_types' ); ?>
-							<!--kurskii-->
+
                             <li>
                                 <div class="dir-search" role="search">
                                     <?php bp_directory_course_search_form(); ?>
@@ -85,10 +85,10 @@ $id= vibe_get_bp_page_id('course');
 									<option value=""><?php _e( 'Порядок', 'vibe' ); ?></option>
 									<option value="newest"><?php _e( 'Сначала новые', 'vibe' ); ?></option>
 									<option value="alphabetical"><?php _e( 'По-алфавиту', 'vibe' ); ?></option>
-									<!--kurskii-->
-                                    <!--<option value="popular"><?php /*_e( 'Most Members', 'vibe' ); */?></option>-->
-									<!--<option value="rated"><?php /*_e( 'Highest Rated', 'vibe' ); */?></option>-->
-									<!--<option value="start_date"><?php /*_e( 'Start Date', 'vibe' ); */?></option>-->
+
+
+
+
 									<?php do_action( 'bp_course_directory_order_options' ); ?>
 								</select>
 							</li>
